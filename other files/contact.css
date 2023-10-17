@@ -95,6 +95,9 @@ body{
   
   
   @media screen and (max-width:900px){
+       .navbar{
+          height: 60px;
+      }
       .nav-items{
           width: 100%;
           flex-direction: column;
@@ -103,11 +106,10 @@ body{
           background-color: #2e2e2e;
           position: absolute;
           top: 0;
-          padding-top: 80px;
+          padding-top: 60px;
           padding-bottom: 40px;
           margin: 0;
           left: -110%;
-          border-radius: 1rem;
           z-index: -1576;
           transition: 0.3s ease-in-out;
       }
